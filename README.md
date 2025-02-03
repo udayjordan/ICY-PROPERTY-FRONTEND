@@ -15,9 +15,8 @@
 ### Dependencies/Tools
 * React
 * Redux Toolkit
-* React Router 5
+* React Router 
 * Tailwindcss
-* Firebase
 * React Icons
 
 
