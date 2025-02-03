@@ -20,8 +20,5 @@
 * Firebase
 * React Icons
 
-### APIs
-* Firebase Auth REST API
-* Bayut API  [Real Estate]
-* Newscatcher API [Global News]
+
 
