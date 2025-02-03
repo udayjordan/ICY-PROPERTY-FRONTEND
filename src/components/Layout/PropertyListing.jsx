@@ -17,7 +17,7 @@ const PropertyListing = () => {
     setError(false);
     setIsFetching(true);
     try {
-      const endpoint = "http://80.65.208.60:8000/v1/property/all-properties";
+      const endpoint = "https://icy-property-backend-1.onrender.com/v1/property/all-properties";
 
       await axios.get(endpoint).then((res) => {
         if (res.status === 200) {
