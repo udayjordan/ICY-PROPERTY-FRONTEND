@@ -19,7 +19,7 @@ const Properties = () => {
 
     try {
       const response = await axios.get(
-        "http://80.65.208.60:8000/v1/property/all-properties"
+        "https://icy-property-backend-1.onrender.com/v1/property/all-properties"
       );
       if (response.status === 200 && Array.isArray(response.data)) {
         console.log("All properties fetched:", response.data);
